@@ -33,6 +33,14 @@ public class BMICategories {
       System.out.println( "moderately obese" );
     }
 
+    else if ( bmi < 40.0 ) {
+      System.out.println( "severely obese" );
+    }
+    
+    else {
+    System.out.println( "very severely/\"morbidly\" obese" );
+}
+
 
   }
 }
